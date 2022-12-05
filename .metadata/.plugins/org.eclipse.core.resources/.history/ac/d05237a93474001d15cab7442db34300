@@ -1,0 +1,7 @@
+create table member(
+	id VARCHAR(20) NOT NULL,
+	passwd VARCHAR(20)NOT NULL,
+	email VARCHAR(30)NOT NULL,
+	PRIMARY KEY (id)
+);
+insert into member values('admin','1234','free');

@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>관리자 로그인</title>
+<script type="text/javascript">
+        function checkFun() 
+        {
+            var f = document.loginForm;
+            if(f.uID.value == "")
+            {
+                alert("아이디를 입력해 주세요.");
+                f.uID.focus();
+                return false;
+            }
+            else if(f.uPW.value == "")
+            {
+                alert("비밀번호를 입력해 주세요.");
+                f.uPW.focus();
+                return false;
+            }
+        else return true;
+    }
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

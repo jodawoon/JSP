@@ -1,0 +1,10 @@
+create table member(
+	id VARCHAR(20) NOT NULL,
+	passwd VARCHAR(20)NOT NULL,
+	email VARCHAR(30)NOT NULL,
+	PRIMARY KEY (id)
+);
+update member set passwd='123456' where id='admin';
+insert into member values('admin','123456','free');
+insert into member values('yoon','1234','free');
+select * from member;

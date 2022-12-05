@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="java.sql.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	Connection conn=null;	
+	String driverName="com.mysql.jdbc.Driver";
+	String url="jdbc:mysql://localhost:3306/test1";
+	String username="root";
+	String password="root";
+	
+	
+	Class.forName("com.mysql.jdbc.Driver");
+	conn.DriverManager.getConnection(url,user,passwd);
+%>
+</body>
+</html>

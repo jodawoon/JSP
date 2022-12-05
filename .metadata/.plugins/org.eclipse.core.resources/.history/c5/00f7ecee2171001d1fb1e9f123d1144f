@@ -1,0 +1,6 @@
+create table member(
+	id VARCHAR(20) NOT NULL,
+	passwd VARCHAR(20)NOT NULL,
+	email VARCHAR(30)NOT NULL,
+	PRIMARY KEY (id)
+);
